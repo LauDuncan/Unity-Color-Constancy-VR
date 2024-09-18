@@ -1,0 +1,4 @@
+repository "Color Constancy Pilot@lauduncan@cloud"
+  path "/"
+    br "/main"
+    co "/main"
