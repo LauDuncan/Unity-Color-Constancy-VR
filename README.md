@@ -7,10 +7,10 @@ This Unity project was developed as part of my research into **color constancy**
 ### **Objective**
 The core objective of this project was to explore how participants maintain color constancy under varying lighting conditions in a VR environment. This research has practical applications in fields like remote monitoring, collaboration, and training, where accurate color perception is vital for decision-making and task performance.
 
-## **Motivation**
+### **Motivation**
 In many VR applications, such as **remote monitoring of construction sites** or **collaborative design work**, maintaining consistent color perception is essential for preventing misjudgments that could lead to costly errors. This project aimed to address this challenge by studying how users perceive color under different lighting conditions in VR environments, thus informing future VR development and color calibration processes.
 
-## **Methodology**
+### **Methodology**
 - **Within-Subjects Design:** All participants were exposed to 27 different lighting and color combinations. 
 - **Independent Variables:** 
 	- **Reference Object Color:** Red, Green, Blue 
@@ -21,10 +21,11 @@ In many VR applications, such as **remote monitoring of construction sites** or 
 - **Data Collection Pipeline:** A custom pipeline was designed to export color values, rendering outputs from Unity's RenderTexture, and process them into the CIELAB color space for further data analysis.
 
 
-## **Technologies Used**
+### **Technologies Used**
 - **Unity (2021.3)** – VR development platform
 - **Universal Render Pipeline (URP)** – Optimized for lightweight rendering, but with future plans to migrate to **HDRP** for improved lighting accuracy.
 - **Oculus Quest 2** – Primary headset used for the study
+
 
 ## **How to Run the Project**
 1. Clone the repository:
